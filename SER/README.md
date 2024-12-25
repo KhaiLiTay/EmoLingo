@@ -207,7 +207,7 @@ This step prepares the data for the Speech Emotion Recognition model to process:
 
 Next, we will construct our CNN model by combining various combinations of convolution layer, pooling layer, normalization layer, dropout layer, flatten layer, and dense layer. The final architecture of our model is as follows:
 
-![CNN Architecture](images/CNN_architecture.png)
+![CNN Architecture](../images/CNN_architecture.png)
 
 ---
 
@@ -218,7 +218,7 @@ history=model.fit(x_traincnn, y_train, epochs=50, validation_data=(x_testcnn, y_
 ```
 We begin training as well as perform validation on the model with the prepared dataset, and we can also visualize the loss and accuracy to gives us a better idea of the model's performance
 
-![Loss and Accuracy](images/loss_accuracy.png)
+![Loss and Accuracy](../images/loss_accuracy.png)
 
 ---
 
@@ -226,7 +226,7 @@ We begin training as well as perform validation on the model with the prepared d
 
 After completing the training process, we will test the model's performance on the testing dataset and we will use confusion matrix to provide deatiled insights into the model's overall performance across different classes. Confusion Matrix shows misclassifications and helps identify which classes are causing problems and derives metrics like accuracy, precision, recall, and F1-score. However, the main advantage of Confusion Matrix is that it handles performance evaluation for multi-class classification tasks. 
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](../images/confusion_matrix.png)
 
 ---
 

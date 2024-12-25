@@ -2,7 +2,7 @@
 
 ---
 
-This repository demonstrates a Speech Emotion Recognition (SER) pipeline integrated into a conversational AI system. The system takes in a speech input, transcribes it to text, detects emotional cues in the speech signal, then uses GPT to generate an appropriate response based on both the context and the detected emotion, and finally converts the generated reply back into speech.
+This folder demonstrates a Speech Emotion Recognition (SER) pipeline integrated into a conversational AI system. The system takes in a speech input, transcribes it to text, detects emotional cues in the speech signal, then uses GPT to generate an appropriate response based on both the context and the detected emotion, and finally converts the generated reply back into speech.
 
 --- 
 
