@@ -13,7 +13,6 @@ This repository demonstrates a **Speech Emotion Recognition (SER)** pipeline int
   - [Speech Emotion Recognition (SER)](#speech-emotion-recognition-ser)
   - [GPT-based Response Generation](#gpt-based-response-generation)
   - [Text to Speech (TTS)](#text-to-speech-tts)
-- [Reference](#reference)
 - [Contributors](#contributors)
 
 ---
@@ -32,6 +31,7 @@ This project focuses on creating an end-to-end pipeline for an **emotion-aware c
 
 ## Features
 
+- **Language Detection**: Detects the input language to ensure the response is generated in the same language.
 - **Real-time STT**: Automatically transcribes user speech to text in real-time.
 - **Emotion Detection**: Identifies emotions such as happiness, sadness, anger, fear, etc.
 - **GPT Response Generation**: Leverages a large language model to respond contextually and empathetically.
@@ -119,14 +119,10 @@ The execution flow of the pipeline is depicted by the following diagram:
 
 ---
 
-## Reference
-
----
-
 ## Contributors
 - Tay Khai Li 戴凱麗(20%): study design, SER model, overall model integration, data interpretation, PPT, leader. 
 - Liong Zheng Ee 農政宇(20%): study design, data analysis, demo video, final presentation, help with every issue in each section. 
-- Michael Andrew Sucahyo 謝嘉銘(20%): study design, SER model, data collection, proposal video, documents.
+- Michael Andrew Sucahyo 謝嘉銘(20%): study design, SER model, data collection, proposal video, documentation.
 - Wong Zi Ying 王籽穎(20%): study design, STT model, GPT API stream, report. 
 - Tsung-Lun Shih 施淙綸(20%): study design, TTS model, report.
 ---
