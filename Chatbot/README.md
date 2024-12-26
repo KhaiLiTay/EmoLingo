@@ -133,6 +133,8 @@ This chatbot implements a complete voice-based chatbot pipeline that combines sp
      - Customizes the assistant's tone based on the detected emotion
      - Receives the text reply from GPT
   6. Converts the GPT-generated reply text into speech using the TTS API and a pre-specified speaker voice sample *LiShen.wav* for voice cloning, and saves the generated audio both in Colab and Google Drive
+     - *Note*: You can download any speaker voice according to your preference, but make sure that the **file path is correct** and the speaker voice must be a **wav file**
+       - To set the appropriate **file path** you can refer to our [Installation and Execution Guide Step 6](#installation-and-execution-guide)
   7. Plays the generated speech response back to the user using *IPython audio* library
 
 ---
